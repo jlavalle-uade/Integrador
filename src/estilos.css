@@ -64,3 +64,19 @@ th {
 .espaciado-vertical-medio{
     padding-top: 20px;
 }
+
+footer{
+    text-align: center; 
+    padding: 20px; 
+    font-size: 12px;
+}
+
+.link-celeste{
+    color: #a6fbff;
+}
+.link-celeste:hover{
+    color: #89d3d6;
+}
+.bg-lightblack{
+    background-color: #545454;
+}
