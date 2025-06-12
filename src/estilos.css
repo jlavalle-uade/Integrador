@@ -80,3 +80,55 @@ footer{
 .bg-lightblack{
     background-color: #545454;
 }
+
+.dark-mode {
+    background-color: #121212 !important;
+    color: #e0e0e0;
+    background-image: none !important;
+}
+
+.dark-mode nav {
+    background-color: #1f1f1f !important;
+}
+
+.dark-mode table {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.dark-mode th {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode td {
+    background-color: #222;
+}
+
+.dark-mode footer {
+    background-color: #1f1f1f;
+    color: #ccc;
+}
+.dark-mode table {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    border-color: #444;
+}
+
+.dark-mode th,
+.dark-mode td {
+    background-color: #2a2a2a;
+    border-color: #555;
+}
+
+.dark-mode tr:hover td {
+    background-color: #3a3a3a;
+}
+
+table {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    border: 1px solid #ccc;
+}
