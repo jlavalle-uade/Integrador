@@ -1,6 +1,16 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
 body{
     font-family: "Open Sans", sans-serif;
     background-image: url("Fondo.jpg");
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1;
 }
 h1{
     font-weight: bold;
@@ -69,6 +79,7 @@ footer{
     text-align: center; 
     padding: 20px; 
     font-size: 12px;
+    padding: 1rem;
 }
 
 .link-celeste{
@@ -131,4 +142,9 @@ table {
 
 th, td {
     border: 1px solid #ccc;
+}
+
+.list-group-item:hover {
+    box-shadow: 0 6px 17px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
 }
